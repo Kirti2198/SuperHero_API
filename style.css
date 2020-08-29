@@ -1,0 +1,68 @@
+body {
+	background-image: url("https://wallpaperaccess.com/full/247088.jpg");
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.btn-outline-danger {
+	background-color: #fff;
+}
+
+.container {
+	position: center center;
+	margin: 0 auto;
+	/* background-color: #bd213a; */
+	display: inline-block;
+	justify-content: center;
+}
+
+.input-group.md-form.form-sm.form-2 input {
+	border: 1px solid #bdbdbd;
+	border-top-left-radius: 0.25rem;
+	border-bottom-left-radius: 0.25rem;
+}
+
+.input-group.md-form.form-sm.form-2 input.amber-border {
+	border: 1px solid #ffca28;
+}
+
+/* Styling for list items and list */
+#lists {
+	color: black;
+	z-index: 1;
+	position: relative;
+	top: 0;
+	margin-top: -1.5%;
+}
+/* li of autosuggest */
+#lists li {
+	width: 25vw;
+	cursor: pointer;
+	/* border-radius: 5px; */
+}
+#lists-container {
+	max-height: 30vh;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.card {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#msg-container {
+	position: absolute;
+	left: 40%;
+	right: auto;
+	top: 40%;
+	padding: 3%;
+	background-color: rgba(255, 255, 255, 0.9);
+	display: none;
+}
+#message {
+	/* font-family: monospace; */
+	font-size: 1.2rem;
+}
